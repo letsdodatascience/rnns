@@ -1,0 +1,19 @@
+{
+  "name": "rnns",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "idyll index.idyll --defaultComponents=components/default --theme github --layout blog --css  styles.css --watch",
+    "build": "idyll index.idyll --defaultComponents=components/default --theme github --layout blog --css styles.css",
+    "deploy": "npm run build && gh-pages -d ./build"
+  },
+  "dependencies": {
+    "d3": "^4.0.0",
+    "idyll": "^2.0.0",
+    "idyll-d3-component": "^2.0.0",
+    "react-p5-wrapper": "0.0.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
+}

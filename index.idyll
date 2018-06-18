@@ -1,0 +1,21 @@
+[meta title:"Language Models" description:"Short description of your project" /]
+
+[Header
+  title:"Language Modelling"
+  subtitle:"Part I: Character Level Language Models"
+  author:"Vineet Kumar Singh"
+  authorLink:"https://twitter.com/viiitdmj" /]
+
+
+How can we teach computers to understand text. Recently, there has been many breakthroughs in the field on **Natural Language Processing (nlp)**.
+I am especially interested to see the future of **transfer learning for nlp**.
+
+
+To quote [amazing Chris Olah](https://twitter.com/ch402): "Humans don’t start their thinking from scratch
+every second. As you read this essay, you understand each word based on your understanding of previous words. You don’t throw everything away and start
+thinking from scratch again. Your thoughts have persistence." How can we build this basic level of state tracking to predict the next character based
+on character typed so far, is the main topic of this essay.
+
+[Aside]
+  ML5 LSTM generator place holder
+[/Aside]
